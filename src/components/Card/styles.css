@@ -1,0 +1,36 @@
+
+.cardContainer{
+display: flex;
+justify-content: center;
+width: 90vw; 
+
+
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 73%;
+    height: 60px;
+    padding: 0px 10px;
+    background-color:#16222ab2;
+    color: white;
+    border-radius: 10px;
+}
+
+.card.completed{
+background-color: #00800036;
+
+}
+.card h3.completed{
+text-decoration: line-through;
+
+}
+.btn{
+    background-color: transparent;
+    cursor: pointer;
+    border: none;
+    font-size: 25px;
+    color: white;
+}
